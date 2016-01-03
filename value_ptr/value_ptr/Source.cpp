@@ -19,7 +19,7 @@ int main()
 	cout << *px + *py << endl;	// Have to dereference
 
 
-	// value_wrapper doesn't need manual dereferencing
+	// value_ptr doesn't need manual dereferencing
 	cout << endl << "Value pointers:" << endl;
 	value_ptr<float> vx(x.get());
 	value_ptr<float> vy(y.get());
