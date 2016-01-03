@@ -1,5 +1,5 @@
 # value_ptr
-Template class that automatically dereferences its pointer.
+Template class that holds a pointer and automatically dereferences it.
 Allows you to write cleaner, more elegant code.
 
 
