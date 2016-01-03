@@ -4,7 +4,7 @@ Allows you to write cleaner, more elegant code.
 
 
 ####Insall
-A single header file is used. Just include it.
+Include the header "value_ptr.hpp".
 
 
 #### Example
