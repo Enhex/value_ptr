@@ -11,7 +11,7 @@ public:
 	value_ptr() {}
 	value_ptr(T* ptr) : ptr(ptr) {}
 
-	void reset(T* new_ptr) { ptr = new_ptr; }
+	T* ptr = nullptr;
 
 	// assignment
 	T& operator=(const T x) { *ptr = x; return *ptr; };
@@ -20,9 +20,6 @@ public:
 	// access
 	operator T& () const noexcept { return *ptr; }
 	T& get() const noexcept { return *ptr; }
-
-private:
-	T* ptr = nullptr;
 };
 
 
