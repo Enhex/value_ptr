@@ -12,7 +12,7 @@ int main()
 
 
 	// Raw pointer requires dereferencing
-	cout << endl << "Pointers:" << endl;
+	cout << "Pointers:" << endl;
 	auto px = x.get();
 	auto py = y.get();
 	cout << px << endl;			// Accessing address
