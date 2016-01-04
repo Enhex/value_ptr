@@ -1,6 +1,7 @@
 # value_ptr
 Template class that holds a pointer and automatically dereferences it.
 Allows writing more clean and elegant code.
+Conceptually it changes the default access of the pointer from address to value.
 
 
 ####Insall
