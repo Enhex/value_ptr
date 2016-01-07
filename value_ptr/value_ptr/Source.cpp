@@ -26,11 +26,21 @@ int main()
 	cout << vx << endl;			// Accessing value
 	cout << vx + vy << endl;	// No need to manually dereference
 
+	cout << endl;
+
 	vx = 4.56f;
 	cout << *x << endl;
 
 	*x = 7.89f;
 	cout << vx << endl;
+
+	cout << endl;
+
+	vx = 0.f;
+	if(vx)
+		cout << "Accessing address" << endl;
+	else
+		cout << "Accessing value" << endl;
 
 
 	// pause
